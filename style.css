@@ -1,0 +1,281 @@
+/*-------------------------------------------*/
+/* BASIC SETUP */
+/*-------------------------------------------*/
+.btn {
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    letter-spacing: .5px;
+    margin: 0;
+    /*text-transform: uppercase;*/
+  }
+  .btn-primary:link ,
+  .btn-primary:visited {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    background: transparent;
+    transition: background-color 0.3s ,color 0.3s;
+  }
+  .btn-primary:hover ,
+  .btn-primary:active {
+    background-color: #fff;
+    color: blue;
+  }
+  .btn-primary-1:link ,
+  .btn-primary-1:visited {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    background: transparent;
+    transition: background-color 0.3s ,color 0.3s;
+  }
+  .btn-primary-1:hover ,
+  .btn-primary-1:active {
+    background-color: #fff;
+    color: #000;
+  }
+  .btn-primary-2:link ,
+  .btn-primary-2:visited {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    background: transparent;
+    transition: background-color 0.3s ,color 0.3s;
+  }
+  .btn-primary-2:hover ,
+  .btn-primary-2:active {
+    background-color: #fff;
+    color: green;
+  }
+  
+  
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  html {
+      background-color: #fff;
+      color: #555;
+      font-family: "Lato", "Arial", sans-serif;
+      font-size: 20px;
+      font-weight: 300;
+      text-rendering: optimizeLegibility;
+  }
+  
+  /*======================*/
+  /*=======Header========*/
+  /*====================*/
+  
+  /*.navbar-default {
+    
+    background-color:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  }*/
+  
+  .navbar-nav li:hover {
+    border-bottom: 3px solid #fff;
+   /* border-radius: 10px;*/
+    
+    color: black;
+  }
+  
+  .navbar-nav li a:hover{
+    color: #fff;
+  }
+  
+  .toppad {
+    /*position: absolute;
+    top: 30%;
+    left: 20%;*/
+    /*display: inline-block;*/
+    padding-top: 100px ;
+    padding-right:10px; 
+    color:#fff;
+  }
+  
+  header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://res.cloudinary.com/dpmxdp5fc/image/upload/v1479008731/Macbook-Desk-Background_b3dq9j.jpg);
+    background-size:cover;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+  
+  }
+  
+  .my-links-header {
+    /*position: absolute;*/
+    padding-top: 70px;
+    /*top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50% , -50%);
+    display: inline-block;*/
+  
+  }
+  
+  .my-links-header a:link ,
+  .my-links-header a:visited {}
+  
+  .stand-header li {
+    display: block;
+    margin-top: 4px;
+  
+  }
+  .stand-header li a:link ,
+  .stand-header li a:visited{
+      color: #fff;
+      border: 2px solid #fff;
+      display: block;
+      border-radius: 50%;
+      height: 50px;
+      width: 50px;
+      text-align: center;
+      
+      padding: 4px;
+      font-size: 150%;
+      margin-right: 25px;
+    
+  }
+  
+  
+  
+  .stand-header li a:hover,
+  .stand-header li a :hover {
+    background-color: #fff;
+    color:#555;
+    
+  }
+  
+  
+  /* links*/
+  li {
+    list-style-type:none;
+    
+    font-size:120%;
+    font-weight:700;
+  }
+  
+  #primary-text{
+      background-color: rgba(255, 255, 255, 0.8);  
+    padding: 20px;
+  }
+  
+  .para li {
+    list-style-type: ;
+  }
+  
+  /* section details*/
+  .details {
+    
+    padding-top: 70px;
+    background: -webkit-linear-gradient(top, #deefff 0%,#98bede 100%);
+  }
+  
+  .info img {
+    vertical-align:top;
+  }
+  
+  .myImage {
+      width: 300px;
+    height: 300px;
+  }
+  .about-me {
+    color:#555;
+    font-size: 300%;
+    font-weight: 400;
+    /*padding-left: 50px;*/
+  }
+  
+  .paragraph {
+    display: inline-block;
+    padding-left: 0 2%;
+    font-size: 150%;
+    line-height: 145%;
+    font-weight: 300;
+  }
+  .paragraph a:link ,
+  .paragraph a:visited {
+    color: #555;
+  }
+  /*======================*/
+  /*=======portfolio=====*/
+  /*====================*/
+  
+  .portfolio {
+    padding-top: 70px 0 0 70px;
+    background-image:url(http://res.cloudinary.com/dpmxdp5fc/image/upload/v1479018580/portfolio-background_p5wevo.jpg);
+    
+    background-attachment: fixed;
+  }
+  
+  .port-img {
+    overflow: hidden;
+    padding-bottom: 50px;
+    padding-left: 10px;
+  }
+  .port-img img {
+    
+    height: 300px;
+      
+      overflow: hidden;
+      opacity: 0.6;
+      transform: scale(1.10);
+      transition: transform 0.5s,opacity 0.5s;
+  }
+  
+  .port-img img:hover {
+      transform: scale(1.03);
+      opacity: 1;
+  }
+  .about-port {
+    color: #fff;
+    font-size: 300%;
+    font-weight: 400;
+    padding-left: 50px;
+  }
+  /* details*/
+  
+  
+  /*======================*/
+  /*=======contacts=====+*/
+  /*====================*/
+  
+  .section-contact {
+    padding-top: 60px;
+     background: #555;
+    color: #888;
+    
+  
+  }
+  
+  .stand div {
+    color: #fff;
+      border: 2px solid #fff;
+      display: inline-block;
+      border-radius: 50%;
+      height: 50px;
+      width: 50px;
+      text-align: center;
+      float:left;
+      padding: 8px;
+      font-size: 150%;
+      margin-right: 15px;
+    
+  }
+  
+  .stand div:hover,
+  .stand div a i:hover {
+    background-color: #fff;
+    color:#555;
+    
+  }
+  
+  .heading {
+    font-size: 140%;
+  }
+  
+  .heading2 {
+    font-size: 70%;
+  }
+  
